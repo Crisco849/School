@@ -1,0 +1,4 @@
+compiler is mcs
+
+example of compilation: 
+	user@user: mcs test.cs

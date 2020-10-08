@@ -1,0 +1,48 @@
+download resources from moodle
+
+install GNS3 
+gns3.com
+
+
+3. display filter
+ip.src == X.X.X.X
+	TCP
+tcp.port == 80
+
+capture filter host X.X.X.X
+host www.google.com
+net 10.0.0.0/24        10.0.0.0-10.0.0.255 255.255.255.0
+255 11111111
+
+src net 10.0.0.0/24
+des net 10.0.0.0/24
+port 80
+
+4.e2-> 1110 0010
+8c -> 1000 1100
+b0 02->(1011-header) (0000- ) (0000- ) 0010
+
+
+5. gns3
+edit>preferences>ios routers>new
+
+click R1 -> console
+> conf  t
+> int f0/0
+> ip add 10.0.0.1 255.255.255.0
+>no shut
+
+
+click R2-> console
+> conf t
+> int f0/0
+> iip add 10.0.0.2 255.255.255.0
+
+ping r1-> r2
+
+r1: do ping 10.0.0.2
+
+use wireshark:
+
+
+	 

@@ -1,0 +1,18 @@
+autostart = False
+version = 0.8.7
+[127.0.0.1:7200]
+    workingdir = /tmp
+    udp = 10001
+    [[7200]]
+        image = /home/crisco/Documents/Fall/CMPS 413/Lab 1/Lab 1/c7200-advipservicesk9-mz.152-4.S5.bin
+        idlepc = 0xffffffffbfc00810
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        console = 2104
+        aux = 2504
+        x = -161.0
+        y = -657.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs

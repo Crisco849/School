@@ -1,0 +1,7 @@
+compiler is mcs
+
+example of compilation: 
+	user@user: mcs test.cs
+
+run with mono:
+	user@user: mono test.exe
