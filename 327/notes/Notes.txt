@@ -1,0 +1,3 @@
+Navigation Meshes
+	- An edge is either shared by another polygon - which means walkable.
+
